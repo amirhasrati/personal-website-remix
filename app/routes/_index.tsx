@@ -1,5 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
-import type { MetaFunction } from "@remix-run/node";
+
 import HomePage from "~/components/HomePage";
 import Navbar from "~/components/Navbar";
 
@@ -17,13 +18,6 @@ import ExpressIcon from "~/components/icons/ExpressIcon";
 import GitIcon from "~/components/icons/GitIcon";
 import DockerIcon from "~/components/icons/DockerIcon";
 import TailwindIcon from "~/components/icons/TailwindIcon";
-
-export const meta: MetaFunction = () => {
-    return [
-        { title: "Amir Hasrati" },
-        { name: "description", content: "Welcome to my website!" },
-    ];
-};
 
 export default function Index() {
     return (
