@@ -25,7 +25,7 @@ export default function Navbar() {
                             <p className="text-slate-800">Home</p>
                         </NavLink>
                     </div>
-                    <div className="px-3 py-1 hidden sm:inline-block text-lg font-semibold rounded-full hover:bg-slate-200 transition delay-75">
+                    {/* <div className="px-3 py-1 hidden sm:inline-block text-lg font-semibold rounded-full hover:bg-slate-200 transition delay-75">
                         <NavLink to="/">
                             <p className="text-slate-800">About</p>
                         </NavLink>
@@ -39,7 +39,7 @@ export default function Navbar() {
                         <NavLink to="/">
                             <p className="text-slate-800">Contact</p>
                         </NavLink>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Connect With Me */}

@@ -15,7 +15,7 @@ export default function HomePage() {
                 </p>
                 <div className="flex flex-row justify-center items-center gap-4 lg:hidden mx-8">
                     <a
-                        className="flex gap-4 rounded-full bg-slate-100 p-3 sm:py-2 items-center hover:bg-slate-200 transition delay-75"
+                        className="flex gap-4 rounded-full border border-gray-200 shadow-sm p-2 sm:py-2 items-center hover:bg-slate-200 transition delay-75"
                         href="https://github.com/amirhasrati">
                         <GithubIcon size={28} />
                         <p className="text-xl hidden sm:inline-block">
@@ -24,7 +24,7 @@ export default function HomePage() {
                         </p>
                     </a>
                     <a
-                        className="flex gap-4 rounded-full bg-slate-100 p-3 sm:py-2 items-center hover:bg-slate-200 transition delay-75"
+                        className="flex gap-4 rounded-full border border-gray-200 shadow-sm p-2  sm:py-2 items-center hover:bg-slate-200 transition delay-75"
                         href="https://linkedin.com/in/amirhasrati">
                         <LinkedinIcon size={28} />
                         <p className="text-xl hidden sm:inline-block">
@@ -32,7 +32,7 @@ export default function HomePage() {
                         </p>
                     </a>
                     <a
-                        className="flex gap-4 rounded-full bg-slate-100 p-3 sm:py-2 items-center hover:bg-slate-200 transition delay-75"
+                        className="flex gap-4 rounded-full border border-gray-200 shadow-sm p-2  sm:py-2 items-center hover:bg-slate-200 transition delay-75"
                         href="mailto:ahasrati@uoguelph.ca">
                         <MailIcon size={28} />
                         <p className="text-xl hidden sm:inline-block">
