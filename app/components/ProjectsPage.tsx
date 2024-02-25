@@ -4,9 +4,7 @@ import whack_a_cloud from "~/images/whack-a-cloud.png";
 
 export default function ProjectsPage() {
     return (
-        <div
-            className="flex flex-col lg:h-screen lg:items-center lg:justify-center"
-            style={{ height: "calc(100vh - 3.5rem)" }}>
+        <div className="flex flex-col lg:h-screen lg:items-center lg:justify-center lg:h-[calc(100vh - 3.5rem)]">
             <header className="flex justify-center">
                 <h1 className="text-center text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold bg-gradient-to-r from-teal-400 to-yellow-200 text-transparent bg-clip-text">
                     Projects

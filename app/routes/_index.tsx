@@ -11,7 +11,7 @@ export default function Index() {
             <div className="mt-16 lg:mt-0">
                 <AboutPage />
             </div>
-            <div className="mt-16 lg:mt-0">
+            <div className="mt-8 mb-8 lg:mt-0">
                 <ProjectsPage />
             </div>
         </div>

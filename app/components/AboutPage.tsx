@@ -15,9 +15,7 @@ import DockerIcon from "~/components/icons/DockerIcon";
 import TailwindIcon from "~/components/icons/TailwindIcon";
 export default function AboutPage() {
     return (
-        <div
-            className="flex flex-col lg:h-screen lg:items-center lg:justify-center"
-            style={{ height: "calc(100vh - 3.5rem)" }}>
+        <div className="flex flex-col lg:h-screen lg:items-center lg:justify-center lg:h-[calc(100vh - 3.5rem)]">
             <header className="my-2">
                 <h1 className="text-center text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text ">
                     About Me

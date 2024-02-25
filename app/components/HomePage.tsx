@@ -5,7 +5,7 @@ import Featured from "~/components/Featured";
 
 export default function HomePage() {
     return (
-        <div className="" style={{ minHeight: "calc(100vh - 3.5rem)" }}>
+        <div className="lg:h-[calc(100vh - 3.5rem)]">
             <header className="flex flex-col flex-1 items-center">
                 <h1 className="text-center text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold bg-gradient-to-tr from-sky-500 to-indigo-500 text-transparent bg-clip-text mx-2 p-2">
                     Amir Hasrati
