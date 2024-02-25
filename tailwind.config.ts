@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
     content: ["./app/**/*.{js,jsx,ts,tsx}"],
     theme: {
@@ -7,4 +8,5 @@ export default {
         },
     },
     plugins: [],
+    darkMode: "selector",
 };
